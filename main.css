@@ -3,9 +3,24 @@
 }
 
 .d-flex {
-    padding: 12px;
+    padding-left: 2%;
 }
 
-button1 {
-    background-color: black;
+
+#h1-size {
+    font-size: 8ch;
+}
+
+#h4-color {
+    color: gray;
+}
+
+.btn-secondary {
+    color: rgb(62, 110, 184);
+    background-color: white;
+    border-color: rgb(60, 110, 185);
+}
+
+#h42-color {
+    color: gray
 }
