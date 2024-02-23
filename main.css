@@ -5,8 +5,13 @@
 .d-flex {
     padding-left: 2%;
 }
+a {
+    text-decoration: none;
+}
 
-
+hr {
+    margin-left: 15%;
+}
 #h1-size {
     font-size: 8ch;
 }
