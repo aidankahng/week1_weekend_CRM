@@ -20,23 +20,28 @@
 
     <!--1 row header-->
     <div class="container">
-        <div class="row">
-            <h1 class="text-lg-end fw-semibold">Sign In</h1>
-        </div>
-
-
         <main class="row">
-
-            <div class="col-6">
-                <h4>Don't Have an Account Yet?</h4>
-                <h4>What are you waiting for? Let's fix this now!</h4>
-                <h4> <button type="submit" class="btn btn-primary">Sign Up</button> </h4>
-    
-                <img src="/login/Group 15.png"> 
+            <!-- Image and Sign-Up Link Column -->
+            <div class="col-7">
+                <div class="clipped background bg-primary d-flex flex-column align-items-center" style="clip-path: ellipse(100% 90% at 0% 10%); height: 100%;">
+                    <h4 class="text-white">Don't Have an Account Yet?</h4>
+                    <h4 class="text-white">What are you waiting for? Let's fix this now!</h4>
+                    <a href="./sign-up.html"><button type="submit" class="btn btn-outline-light" style="border-radius:20px; display:block;">Sign Up</button></a>
+                    <img class="" style="width: 60%; height: auto" src="/login/Group 15.png"> 
+                </div>
             </div>
+            <!-- End of Image and Sign-Up Link Column -->
 
-            <div class="col-6">
-                <form>
+            <!-- Spacer Column -->
+            <div class="col-1"></div>
+            <!-- End of Spacer Column -->
+            
+            <!-- Sign-In Form Column -->
+            <div class="col-4">
+                <div class="row">
+                    <h1 class="text-lg-start ms-3 fw-semibold">Sign In</h1>
+                </div>
+                <form class="d-flex flex-column justify-content-between" style="height: 20em">
                     <div class="input-group input-group-sm mb-3">
                         <label for="exampleInputUsername1" class="col-form-label"></label>
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
@@ -60,7 +65,7 @@
                                 <label class="form-check-label" for="exampleCheck1">Check me out</label>
                            </div> -->
 
-                    <button type="submit" class="btn btn-primary">Sign In</button>
+                    <button type="submit" class="btn btn-primary" style="border-radius:20px">Sign In</button>
 
                   </form>
 
