@@ -45,3 +45,14 @@ hr {
 #h42-color {
     color: gray
 }
+
+.royal-blue {
+    background-color: #2752fc;
+}
+
+#footer-get-started {
+    background-color: #88d100;
+}
+#footer-get-started.hover {
+    background-color: #527a07;
+}
