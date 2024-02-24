@@ -1,3 +1,47 @@
 * {
     box-sizing: border-box;
 }
+
+.d-flex {
+    padding-left: 2%;
+}
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-left: 15%;
+}
+#h1-size {
+    font-size: 8ch;
+}
+
+#h4-color {
+    color: gray;
+}
+
+.btn-secondary {
+    color: rgb(62, 110, 184);
+    background-color: white;
+    border-color: rgb(60, 110, 185);
+}
+
+.inlinelist {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+  
+.inlinelist li {
+    display: inline; /* Display list items inline */
+}
+  
+.inlinelist li:not(:first-child)::before {
+    content: "•"; /* Use a custom bullet point */
+    margin: 0 5px; /* Add space between bullet and item */
+    color: rgb(60, 110, 185);
+    
+}
+
+#h42-color {
+    color: gray
+}
