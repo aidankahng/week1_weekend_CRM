@@ -46,13 +46,19 @@ hr {
     color: gray
 }
 
-.royal-blue {
-    background-color: #2752fc;
+.footerButtons {
+    text-align: center;
 }
 
-#footer-get-started {
-    background-color: #88d100;
+
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#footer-get-started.hover {
-    background-color: #527a07;
+
+.image {
+    max-width: 40%;
+    
 }

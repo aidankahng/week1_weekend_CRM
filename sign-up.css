@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+}
+
+
+.container {  display: grid;
+    grid-template-columns: 1fr 325.6px;
+    grid-template-rows: 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "form img";
+      height: 100vh;
+  }
+
+  .imbed-icon {
+    position: relative;
+
+  }
+
+  .icon {
+    position: absolute;
+    z-index: 6;
+    border-top-left-radius: 50rem;
+    border-bottom-left-radius: 50rem;
+    background-color: white;
+  }
+
+  .imbed-icon input {
+    padding-left: 45px;
+  }
+
+  .sign-upbox {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-signup {
+    flex-grow: 1;
+    height: 100vh;
+     grid-area: form-signup;
+     }
+
+  .img {
+     grid-area: img;
+    }
