@@ -45,3 +45,21 @@ hr {
 #h42-color {
     color: gray
 }
+
+.footerButtons {
+    text-align: center;
+}
+
+
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    max-width: 40%;
+    
+}
+
